@@ -1,0 +1,65 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary files
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.out
+
+# Dependency directories (if vendoring is not used)
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Go module cache (usually outside project, but safe to ignore)
+*.sum
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE - JetBrains GoLand / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# GoLand local workspace files
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# Build output directories
+bin/
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Debug files
+debug/
+*.prof
+
+# Generated files (uncomment if you use code generation)
+# *.gen.go
