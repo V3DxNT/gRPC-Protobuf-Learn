@@ -29,9 +29,9 @@ func main() {
 
 	//callSayHelloServerStreaming(client, names)
 	log.Println("Starting the Client Calling here")
-	callSayHelloClientStream(client, names)
+	//callSayHelloClientStream(client, names)
 
-	//callSayHelloBidrectionalStream(client,names)
+	callSayHelloBidirectionalStream(client, names)
 
 	//callSayHello(client)
 }
