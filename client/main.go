@@ -27,7 +27,11 @@ func main() {
 		Names: []string{"Vedant", "Asthana", "Ved"},
 	}
 
-	callSayHelloServerStreaming(client, names)
+	//callSayHelloServerStreaming(client, names)
+	log.Println("Starting the Client Calling here")
+	callSayHelloClientStream(client, names)
+
+	//callSayHelloBidrectionalStream(client,names)
 
 	//callSayHello(client)
 }
